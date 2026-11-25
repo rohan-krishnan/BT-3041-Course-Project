@@ -1,0 +1,13 @@
+gene,direction,contrast,source
+NR4A3,up,acute,MetaMEx (Pillon et al. 2020 Nat Commun): among the most exercise-responsive genes
+PPARGC1A,up,acute,MetaMEx 2020 and 2025 exerkine preprint: rises after acute exercise
+MSTN,down,exercise,MetaMEx 2020: all exercise protocols reduced MSTN mRNA
+MSTN,down,training,2025 preprint on 40 muscle exerkines (human and rodent): falls with chronic training
+APLN,up,training,2025 preprint on 40 muscle exerkines: rises with chronic exercise in human and rodent
+FNDC5,up,training,2025 preprint on 40 muscle exerkines: rises with chronic exercise in human and rodent
+GDF15,up,acute,2025 preprint on 40 muscle exerkines: human acute increase
+IGF1,up,acute,2025 preprint on 40 muscle exerkines: human acute increase
+SDC4,up,acute,2025 preprint on 40 muscle exerkines: human acute increase
+TGFB2,up,acute,2025 preprint on 40 muscle exerkines: human acute increase
+ANGPTL4,up,acute,2025 preprint on 40 muscle exerkines: human acute increase
+BDNF,up,acute,2025 preprint on 40 muscle exerkines: human acute increase
