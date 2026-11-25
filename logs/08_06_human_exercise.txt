@@ -1,0 +1,23 @@
+06_human_exercise: 15451 genes tested; significant with |log2FC| > 1: up 40, down 0
+
+MSigDB_Hallmark_2020, up-regulated genes, top pathways (Fisher q; chi-square q):
+                          pathway  hits  genes_in_pathway  fold_enrichment q_fisher   q_chi2
+    TNF-alpha Signaling via NF-kB    24               170            54.53  5.0e-36 2.6e-278
+                          Hypoxia     8               174            17.76  3.1e-07  2.4e-28
+             IL-2/STAT5 Signaling     6               157            14.76  4.8e-05  1.7e-17
+Epithelial Mesenchymal Transition     6               174            13.32  6.5e-05  1.0e-15
+                        Apoptosis     5               142            13.60  2.6e-04  1.1e-13
+            Inflammatory Response     5               139            13.89  2.6e-04  6.0e-14
+               TGF-beta Signaling     3                52            22.29  2.3e-03  4.8e-14
+                   UV Response Up     4               135            11.45  2.4e-03  3.3e-09
+
+Reactome_2022, up-regulated genes, top pathways (Fisher q; chi-square q):
+                                                                                          pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+                                                       NGF-stimulated Transcription R-HSA-9031628     5                30            64.38  2.0e-05 6.6e-67
+                         Nuclear Events (Kinase And Transcription Factor Activation) R-HSA-198725     5                52            37.14  1.8e-04 1.3e-37
+                                                           Signaling By NTRK1 (TRKA) R-HSA-187037     5                98            19.71  2.8e-03 8.1e-19
+                                                                  Signaling By NTRKs R-HSA-166520     5               114            16.94  4.5e-03 4.4e-16
+                                         Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807     4                72            21.46  1.0e-02 1.6e-16
+                                                       Generic Transcription Pathway R-HSA-212436    11              1016             4.18  1.0e-02 2.8e-06
+                                             Signaling By Receptor Tyrosine Kinases R-HSA-9006934     7               409             6.61  1.8e-02 1.9e-07
+RUNX1 Regulates Transcription Of Genes Involved In Differentiation Of Keratinocytes R-HSA-8939242     2                 6           128.76  1.9e-02 2.5e-54

@@ -1,0 +1,28 @@
+mouse, exercise: 194 samples (88 exercise, 106 no exercise) from 11 studies
+genes tested: 14394
+
+DESeq2: padj < 0.05 307 (up 199, down 108); and |log2FC| > 1: 1; Bonferroni < 0.05: 23
+Chi-square, CMH by study: q < 0.05 110   naive chi-square (study ignored): q < 0.05 19
+genes significant by the naive chi-square but not by CMH: 9 (study confounding)
+
+agreement between DESeq2 and CMH:
+CMH significant     False  True 
+DESeq2 significant              
+False               14033     54
+True                  251     56
+chi-square on this table = 1263.4, p = 1.01e-276; Fisher odds ratio = 58.0
+
+top genes by DESeq2 p-value:
+            baseMean  log2FoldChange    padj   p_cmh   q_cmh  mh_odds_ratio
+MYH1     129979.7771          0.4802  0.0000  0.0003  0.0366         2.7644
+GOT2      13869.4402          0.2171  0.0000  0.0003  0.0366         2.6710
+TM6SF1      299.0497          0.3835  0.0000  0.0000  0.0091         3.7107
+GPT         668.7426          0.2703  0.0001  0.0000  0.0067         4.2518
+ABLIM3      642.9229          0.2432  0.0001  0.0053  0.1257         2.2355
+NNAT        119.3217         -0.8783  0.0002  0.0018  0.0855         0.4629
+IQSEC2      375.7285          0.2546  0.0002  0.0003  0.0366         2.6629
+HSBP1L1      44.7812          0.3952  0.0002  0.0021  0.0855         2.4060
+ALDH2      3711.4147          0.2498  0.0004  0.0003  0.0366         2.9028
+CCDC189      49.4765          0.3266  0.0004  0.0008  0.0613         2.5645
+VLDLR      7341.6652         -0.2366  0.0006  0.0007  0.0613         0.3742
+CRYBB1       35.9851          0.4890  0.0007  0.0001  0.0210         3.0449

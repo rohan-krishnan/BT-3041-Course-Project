@@ -1,0 +1,61 @@
+counts: 39376 genes x 803 samples, 15 studies
+
+library size (million counts) per study, median [min, max]:
+           median   min    max
+datasets                      
+GSE108643     2.7   2.1    3.6
+GSE120862    44.5  26.2   54.5
+GSE151066    32.1  15.8   44.0
+GSE157585    40.1  16.9  127.4
+GSE163356    20.1  15.9   46.9
+GSE163434    25.4  23.6   27.0
+GSE186045    27.1  16.8  101.4
+GSE195585    44.5  39.3   47.2
+GSE60590     11.6   9.1   23.7
+GSE60833     17.8   8.8   36.4
+GSE71972     31.1  22.6   39.5
+GSE86931     24.2  22.6   31.6
+GSE87748     21.8  16.9   42.4
+GSE97084     23.6   7.4   37.4
+GSE99963     10.8   4.0   21.9
+samples with fewer than 1 million counts: 0 []
+
+acute-exercise time points and how they were parsed (check these):
+                   n  hours
+biopsy timepoint           
+post(0h)          64    0.0
+post(1h)          58    1.0
+post(24h)         29   24.0
+post(3h)          54    3.0
+post(4h)          70    4.0
+post(8h)           2    8.0
+acute samples with no parsed time: 0
+
+paired design per study:
+    study  samples  people  people_base+acute  people_base+training
+GSE108643       57      29                 28                     0
+GSE120862       84       7                  7                     0
+GSE151066       56      19                 19                     0
+GSE157585      135      89                  0                    46
+GSE163356       41      11                 11                     0
+GSE163434        4       2                  0                     2
+GSE186045       26      13                  0                     7
+GSE195585      119      30                 30                     0
+ GSE60590       25      25                  0                     0
+ GSE60833       55      55                  0                     0
+ GSE71972       47      14                 14                     0
+ GSE86931        6       2                  2                     0
+ GSE87748       18      10                  8                     0
+ GSE97084      103     103                  0                     0
+ GSE99963       27      14                  0                     7
+people with baseline and acute: 119, baseline and training: 62
+
+genes kept (CPM > 1 in at least 10% of samples): 15451 of 39376
+variance in the first 5 PCs: 17.7%, 14.3%, 11.7%, 7.0%, 6.1%
+
+adjusted R2 (weighted over 20 PCs), all samples:
+  study           0.686  (15 levels)
+  exercise class  0.078  (3 levels)
+  RNA type        0.096  (2 levels)
+  read layout     0.070  (2 levels)
+after removing each study's mean: exercise class adjusted R2 = 0.051

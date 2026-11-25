@@ -1,0 +1,13 @@
+human: 803 samples, 15451 genes with a symbol
+mouse: 194 samples, 14394 genes with a symbol
+genes present in both species: 10839
+
+saved results/03_all.tsv.gz: 997 samples x 25 description columns + 10839 genes
+samples per species and class:
+species  classification   
+human    acute exercise       277
+         inactivity           357
+         longterm training    169
+mouse    acute exercise        22
+         inactivity           106
+         longterm training     66

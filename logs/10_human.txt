@@ -1,0 +1,16 @@
+    gene contrast direction  log2FoldChange          padj            verdict
+   NR4A3    acute        up           5.687 1.303538e-219          confirmed
+PPARGC1A    acute        up           1.805  1.255970e-52          confirmed
+    MSTN exercise      down          -0.487  1.934111e-14          confirmed
+    MSTN training      down          -0.256  5.056118e-03          confirmed
+    APLN training        up           0.186  7.749506e-02    not significant
+   FNDC5 training        up          -0.013  8.805235e-01    not significant
+   GDF15    acute        up             NaN           NaN    gene not tested
+    IGF1    acute        up          -0.202  5.367992e-03 opposite direction
+    SDC4    acute        up           1.335  7.530150e-45          confirmed
+   TGFB2    acute        up           0.370  1.674139e-05          confirmed
+ ANGPTL4    acute        up           2.454  2.646202e-50          confirmed
+    BDNF    acute        up             NaN           NaN    gene not tested
+
+7 of 10 testable hypotheses confirmed (1 opposite direction)
+random genes with the same directions: on average 2.2 confirmed, p(at least 7) = 0.0014

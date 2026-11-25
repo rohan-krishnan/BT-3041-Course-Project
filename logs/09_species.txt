@@ -1,0 +1,33 @@
+genes tested in both species: 10823 (human 15528, mouse 14314)
+Spearman correlation of log2 fold changes: rho = 0.298, p = 4.36e-220
+
+significance status (padj < 0.05, |log2FC| > 0.0), rows human, columns mouse:
+mouse             up  down  not significant
+human                                      
+up                84     7             2136
+down              27    53             2629
+not significant  101    87             5699
+chi-square test of independence: chi2 = 77.8, df = 4, p = 5.19e-16
+up in both: 84 genes (human 2227, mouse 212); Fisher odds ratio 2.6, p = 1.24e-10; chi-square p = 4.27e-12
+down in both: 53 genes (human 2709, mouse 147); Fisher odds ratio 1.7, p = 1.81e-03; chi-square p = 1.89e-03
+
+genes significant in both: 171, same direction: 137 (80%); sign test p = 7.41e-16
+
+top conserved genes:
+           log2FoldChange_human  padj_human  log2FoldChange_mouse  padj_mouse direction  rank_sum
+GeneID                                                                                           
+TCN2                     0.4369         0.0                0.1462      0.0024        up      16.0
+ADCYAP1R1                0.6462         0.0                0.2547      0.0040        up      17.5
+APP                      0.2661         0.0                0.1250      0.0114        up      35.0
+ABLIM3                   0.2130         0.0                0.2717      0.0001        up      35.0
+ACLY                     0.1489         0.0                0.7793      0.0000        up      35.0
+AFDN                     0.2241         0.0                0.1998      0.0040        up      36.5
+PDGFRB                   0.3114         0.0                0.1882      0.0084        up      36.5
+CLDN5                    0.3324         0.0                0.3032      0.0024        up      38.0
+KCNJ8                    0.4046         0.0                0.2079      0.0114        up      39.0
+DLL4                     0.2456         0.0                0.2932      0.0001        up      42.0
+TNFSF10                  0.2746         0.0                0.2689      0.0037        up      46.0
+SMAD1                    0.1542         0.0                0.1738      0.0067        up      48.0
+KIT                      0.5947         0.0                0.3660      0.0118        up      56.0
+PCDH1                    0.3062         0.0                0.2365      0.0118        up      60.0
+HHEX                     0.3084         0.0                0.3532      0.0078        up      61.0

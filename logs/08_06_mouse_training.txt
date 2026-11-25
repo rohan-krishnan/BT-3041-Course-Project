@@ -1,0 +1,45 @@
+06_mouse_training: 14314 genes tested; significant with |log2FC| > 0: up 277, down 187
+
+MSigDB_Hallmark_2020, up-regulated genes, top pathways (Fisher q; chi-square q):
+                  pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+Interferon Alpha Response    14                82             8.82  2.5e-08 9.4e-22
+Interferon Gamma Response    15               161             4.81  1.3e-05 2.0e-10
+    Xenobiotic Metabolism    13               141             4.76  5.8e-05 4.6e-09
+    Fatty Acid Metabolism    12               135             4.59  1.5e-04 4.7e-08
+             Adipogenesis    12               198             3.13  4.8e-03 2.2e-04
+                Apoptosis     9               135             3.45  1.0e-02 5.1e-04
+Oxidative Phosphorylation    10               180             2.87  1.9e-02 2.8e-03
+  Cholesterol Homeostasis     5                65             3.98  5.3e-02 4.6e-03
+
+MSigDB_Hallmark_2020, down-regulated genes, top pathways (Fisher q; chi-square q):
+                      pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+           TGF-beta Signaling     7                52            10.30  2.4e-04 5.2e-13
+    Unfolded Protein Response     6               109             4.21  7.6e-02 2.7e-03
+             mTORC1 Signaling     7               187             2.87  1.9e-01 5.2e-02
+TNF-alpha Signaling via NF-kB     6               167             2.75  2.5e-01 8.9e-02
+                   Glycolysis     6               171             2.69  2.5e-01 8.9e-02
+               Myc Targets V1     6               192             2.39  2.9e-01 1.8e-01
+               Myc Targets V2     3                57             4.03  2.9e-01 8.9e-02
+                    Apoptosis     4               135             2.27  6.3e-01 5.5e-01
+
+Reactome_2022, up-regulated genes, top pathways (Fisher q; chi-square q):
+                                                   pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+                       Fatty Acid Metabolism R-HSA-8978868    12               124             5.00  8.3e-03 5.4e-08
+              Interferon Alpha/Beta Signaling R-HSA-909733     7                45             8.04  1.9e-02 6.3e-09
+Glyoxylate Metabolism And Glycine Degradation R-HSA-389661     5                24            10.77  3.3e-02 4.1e-09
+                   Fatty acyl-CoA Biosynthesis R-HSA-75105     5                23            11.23  3.3e-02 2.1e-09
+                               Gluconeogenesis R-HSA-70263     5                25            10.34  3.3e-02 9.6e-09
+   ChREBP Activates Metabolic Gene Expression R-HSA-163765     3                 6            25.84  3.8e-02 2.0e-14
+           Apoptotic Factor-Mediated Response R-HSA-111471     4                18            11.48  4.7e-02 5.5e-08
+           Bile Acid And Bile Salt Metabolism R-HSA-194068     4                21             9.84  4.7e-02 1.1e-06
+
+Reactome_2022, down-regulated genes, top pathways (Fisher q; chi-square q):
+                                                                pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+                   rRNA Processing In Nucleus And Cytosol R-HSA-8868773     8               180             3.40  6.6e-01 2.2e-02
+                                            rRNA Processing R-HSA-72312     8               190             3.22  6.6e-01 3.2e-02
+                                          Signaling By WNT R-HSA-195721     9               230             3.00  6.6e-01 3.5e-02
+             Response Of EIF2AK1 (HRI) To Heme Deficiency R-HSA-9648895     3                14            16.40  6.6e-01 5.4e-08
+                                      Recycling Of eIF2:GDP R-HSA-72731     2                 7            21.87  6.6e-01 1.7e-07
+                    Base-Excision Repair, AP Site Formation R-HSA-73929     3                24             9.57  6.6e-01 3.1e-04
+                                        Metabolism Of RNA R-HSA-8953854    17               624             2.09  6.6e-01 7.8e-02
+Major Pathway Of rRNA Processing In Nucleolus And Cytosol R-HSA-6791226     8               170             3.60  6.6e-01 1.4e-02

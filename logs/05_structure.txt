@@ -1,0 +1,25 @@
+
+human: 803 samples
+  condition x study: chi-square = 513.7, df = 28, p = 1.02e-90, Cramer's V = 0.57, cells with expected count < 5: 16%
+  condition x sex: chi-square = 62.8, df = 2, p = 2.35e-14, Cramer's V = 0.35, cells with expected count < 5: 0%
+condition  acute exercise  long-term training  no exercise
+sex                                                       
+female                  8                  24           20
+male                  238                  42          182
+  condition x age_group: chi-square = 81.7, df = 4, p = 7.66e-17, Cramer's V = 0.23, cells with expected count < 5: 0%
+condition  acute exercise  long-term training  no exercise
+age_group                                                 
+adult                   0                   9           26
+aged                   37                  75          108
+young                 240                  85          223
+
+mouse: 194 samples
+  condition x study: chi-square = 92.4, df = 20, p = 2.79e-11, Cramer's V = 0.49, cells with expected count < 5: 61%
+  condition x age_group: chi-square = 26.6, df = 4, p = 2.43e-05, Cramer's V = 0.26, cells with expected count < 5: 33%
+condition  acute exercise  long-term training  no exercise
+age_group                                                 
+adult                  22                  31           74
+aged                    0                  35           29
+young                   0                   0            3
+
+joint PCA, variance in PC1 to PC3: 51.2%, 10.8%, 6.1%

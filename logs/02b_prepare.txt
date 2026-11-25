@@ -1,0 +1,52 @@
+counts: 53454 genes x 194 samples, 11 studies
+
+library size (million counts) per study, median [min, max]:
+           median   min   max
+datasets                     
+GSE122116    46.5  36.5  68.9
+GSE123878    21.6  18.6  23.3
+GSE126962    34.3  25.1  50.4
+GSE132520    22.0  18.7  23.9
+GSE155937    28.6  26.4  31.1
+GSE180771    48.6  42.4  52.4
+GSE186251    19.2  15.4  23.7
+GSE198229    22.6  16.5  28.5
+GSE198266    32.3  28.3  37.3
+GSE82164     19.6  15.5  23.7
+GSE97718      9.6   7.1  11.5
+samples with fewer than 1 million counts: 0 []
+
+acute-exercise time points and how they were parsed (check these):
+                   n  hours
+biopsy timepoint           
+post(0h)           2    0.0
+post(12h)          2   12.0
+post(3h)          12    3.0
+post(4h)           4    4.0
+post(8h)           2    8.0
+acute samples with no parsed time: 0
+
+paired design per study:
+    study  samples  people  people_base+acute  people_base+training
+GSE122116       66      33                  0                     0
+GSE123878       10      10                  0                     0
+GSE126962       23      16                  0                     0
+GSE132520        8       8                  0                     0
+GSE155937       12      12                  0                     0
+GSE180771        5       5                  0                     0
+GSE186251       12      12                  0                     0
+GSE198229       12      12                  0                     0
+GSE198266       24      12                  0                     0
+ GSE82164        6       6                  0                     0
+ GSE97718       16      16                  0                     0
+people with baseline and acute: 0, baseline and training: 0
+
+genes kept (CPM > 1 in at least 10% of samples): 14394 of 53454
+variance in the first 5 PCs: 35.7%, 19.6%, 9.1%, 6.3%, 4.9%
+
+adjusted R2 (weighted over 20 PCs), all samples:
+  study           0.799  (11 levels)
+  exercise class  0.071  (3 levels)
+  RNA type        0.357  (2 levels)
+  read layout     0.042  (2 levels)
+after removing each study's mean: exercise class adjusted R2 = 0.002

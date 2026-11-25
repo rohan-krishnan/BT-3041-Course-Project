@@ -1,0 +1,27 @@
+mouse, acute: 47 samples (22 exercise, 25 no exercise) from 3 studies
+genes tested: 14047
+
+DESeq2: padj < 0.05 40 (up 33, down 7); and |log2FC| > 1: 2; Bonferroni < 0.05: 10
+Chi-square, CMH by study: q < 0.05 0   naive chi-square (study ignored): q < 0.05 0
+genes significant by the naive chi-square but not by CMH: 0 (study confounding)
+
+agreement between DESeq2 and CMH:
+CMH significant     False
+DESeq2 significant       
+False               14007
+True                   40
+
+top genes by DESeq2 p-value:
+           baseMean  log2FoldChange    padj   p_cmh   q_cmh  mh_odds_ratio
+CSRP3     1370.5317          0.8588  0.0034  0.0012  1.0000         8.5512
+ECH1      2551.9390          0.3741  0.0034  0.0001  0.3944        12.1597
+RAB15       57.3557          0.8100  0.0034  0.0075  1.0000         4.6502
+ANKRD2    1558.9911          0.5754  0.0034  0.0351  1.0000         3.7714
+LMCD1     1722.6580          0.5027  0.0045  0.0351  1.0000         3.9450
+FABP3     6390.6817          0.5297  0.0045  0.0012  1.0000         5.4863
+ACADL     3107.2097          0.3108  0.0046  0.0075  1.0000         4.8095
+PLIN5      337.2419          0.6897  0.0046  0.0075  1.0000         5.8120
+HSPB7     4238.3102          0.5116  0.0046  0.0075  1.0000         5.8120
+ITGA4      323.7821         -0.2986  0.0046  0.0628  1.0000         0.2615
+SNCG        86.2834          0.6618  0.0054  0.0012  1.0000         7.0851
+SLC25A34   222.3544          0.5196  0.0075  0.0351  1.0000         4.3162

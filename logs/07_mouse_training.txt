@@ -1,0 +1,19 @@
+mouse, training: 66 exercise vs 81 no-exercise samples, 14317 genes (study means removed)
+Welch t-test: q < 0.05 191   Bonferroni < 0.05 11
+Mann-Whitney U: q < 0.05 448   Bonferroni < 0.05 18
+DESeq2: padj < 0.05 464
+Spearman correlation, DESeq2 log2FC vs mean log2 difference: 0.962
+
+agreement with DESeq2, Welch t-test:
+Welch t-test significant  False  True 
+DESeq2 significant                    
+False                     13841     12
+True                        285    179
+chi-square = 5053.3, p = 0.00e+00; Fisher odds ratio = 724.4
+
+agreement with DESeq2, Mann-Whitney U:
+Mann-Whitney U significant  False  True 
+DESeq2 significant                      
+False                       13700    153
+True                          169    295
+chi-square = 5780.7, p = 0.00e+00; Fisher odds ratio = 156.3

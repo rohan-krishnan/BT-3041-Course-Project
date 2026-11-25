@@ -1,0 +1,45 @@
+06_human_training: 15528 genes tested; significant with |log2FC| > 0.5: up 118, down 34
+
+MSigDB_Hallmark_2020, up-regulated genes, top pathways (Fisher q; chi-square q):
+                          pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+Epithelial Mesenchymal Transition    23               172            17.60  8.3e-21 4.5e-80
+                     Angiogenesis     4                27            19.50  1.2e-03 9.7e-16
+                   UV Response Dn     5               136             4.84  6.3e-02 1.4e-03
+                        Apoptosis     4               139             3.79  1.8e-01 3.2e-02
+               Hedgehog Signaling     2                29             9.08  1.8e-01 1.7e-03
+                       Myogenesis     5               191             3.44  1.8e-01 2.9e-02
+                      Coagulation     3                95             4.16  2.6e-01 5.0e-02
+                          Hypoxia     4               172             3.06  2.6e-01 1.1e-01
+
+MSigDB_Hallmark_2020, down-regulated genes, top pathways (Fisher q; chi-square q):
+                      pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+TNF-alpha Signaling via NF-kB     4               159            11.49  1.9e-02 2.4e-08
+                 Adipogenesis     3               194             7.06  2.2e-01 1.7e-03
+               UV Response Up     2               135             6.77  5.9e-01 2.7e-02
+                   Myogenesis     2               191             4.78  8.2e-01 1.7e-01
+      Estrogen Response Early     1               159             2.87  1.0e+00 8.2e-01
+       Estrogen Response Late     1               144             3.17  1.0e+00 8.2e-01
+              Apical Junction     1               161             2.84  1.0e+00 8.2e-01
+                      Hypoxia     1               172             2.66  1.0e+00 8.2e-01
+
+Reactome_2022, up-regulated genes, top pathways (Fisher q; chi-square q):
+                                                                   pathway  hits  genes_in_pathway  fold_enrichment q_fisher   q_chi2
+                           Extracellular Matrix Organization R-HSA-1474244    24               205            15.41  7.8e-19  3.7e-71
+                                          Collagen Formation R-HSA-1474290    15                70            28.20  2.7e-15  1.1e-85
+Assembly Of Collagen Fibrils And Other Multimeric Structures R-HSA-2022090    13                44            38.88  3.4e-15 3.2e-104
+                                Collagen Chain Trimerization R-HSA-8948216    10                33            39.88  1.4e-11  1.7e-82
+                 Collagen Biosynthesis And Modifying Enzymes R-HSA-1650814    11                52            27.84  4.7e-11  5.1e-62
+                             Scavenging By Class A Receptors R-HSA-3000480     5                16            41.12  2.6e-05  2.1e-42
+        Binding And Uptake Of Ligands By Scavenger Receptors R-HSA-2173782     6                32            24.67  3.1e-05  2.1e-29
+                                           ECM Proteoglycans R-HSA-3000178     6                37            21.34  6.7e-05  4.1e-25
+
+Reactome_2022, down-regulated genes, top pathways (Fisher q; chi-square q):
+                                                        pathway  hits  genes_in_pathway  fold_enrichment q_fisher  q_chi2
+             AKT Phosphorylates Targets In Nucleus R-HSA-198693     1                10            45.67  1.0e+00 8.5e-09
+     AMPK Inhibits chREBP Transcriptional Activity R-HSA-163680     1                 8            57.09  1.0e+00 5.9e-11
+Activation Of AP-1 Family Of Transcription Factors R-HSA-450341     1                10            45.67  1.0e+00 8.5e-09
+                      Arachidonic Acid Metabolism R-HSA-2142753     1                30            15.22  1.0e+00 1.2e-02
+ Assembly Of Active LPL And LIPC Lipase Complexes R-HSA-8963889     1                11            41.52  1.0e+00 4.2e-08
+                             Biological Oxidations R-HSA-211859     1               130             3.51  1.0e+00 9.2e-01
+                          Cell-Cell Communication R-HSA-1500931     1                87             5.25  1.0e+00 9.2e-01
+                              Cellular Senescence R-HSA-2559583     1               129             3.54  1.0e+00 9.2e-01

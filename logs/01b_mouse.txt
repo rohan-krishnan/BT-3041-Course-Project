@@ -1,0 +1,27 @@
+selected 13 studies, 224 samples
+attempt 1 on archs4/files/mouse_gene_v2.latest.h5 stopped after 0 samples: IndexError
+ARCHS4 file: 1225044 samples, 53511 genes; reading 194 columns, this can take a long time
+ARCHS4 holds 194 of 224 samples
+
+           in_metadata  in_ARCHS4
+datasets                         
+GSE122116           66         66
+GSE123878           10         10
+GSE126962           23         23
+GSE132520            8          8
+GSE155937           12         12
+GSE180771            5          5
+GSE186251           12         12
+GSE198229           12         12
+GSE198266           24         24
+GSE206187           24          0
+GSE31839             6          0
+GSE82164             6          6
+GSE97718            16         16
+
+merged matrix: 53511 genes x 194 samples from 11 studies
+samples per class:
+classification
+inactivity           106
+longterm training     66
+acute exercise        22

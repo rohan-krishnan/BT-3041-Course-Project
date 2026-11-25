@@ -1,0 +1,28 @@
+selected 15 studies, 804 samples: GSE108643, GSE120862, GSE151066, GSE157585, GSE163356, GSE163434, GSE186045, GSE195585, GSE60590, GSE60833, GSE71972, GSE86931, GSE87748, GSE97084, GSE99963
+
+download problem (first reason seen): got a web page instead of a file (first bytes: b'<!doctype html><html lang="en-US" dir="ltr"><head><base href="https://www.google')
+If NCBI blocks scripts, download each study's 'RNA-seq raw counts matrix' in the browser from https://www.ncbi.nlm.nih.gov/geo/download/?acc=<GSE> and put the files in the geo folder, then run this script again.
+
+    study status  samples_in_metadata  samples_with_counts
+GSE108643     ok                   57                   57
+GSE120862     ok                   84                   84
+GSE151066     ok                   56                   56
+GSE157585     ok                  135                  135
+GSE163356     ok                   41                   41
+GSE163434     ok                    4                    4
+GSE186045     ok                   26                   26
+GSE195585     ok                  119                  119
+ GSE60590     ok                   26                   25
+ GSE60833     ok                   55                   55
+ GSE71972     ok                   47                   47
+ GSE86931     ok                    6                    6
+ GSE87748     ok                   18                   18
+ GSE97084     ok                  103                  103
+ GSE99963     ok                   27                   27
+
+merged matrix: 39376 genes x 803 samples from 15 studies
+samples per class:
+classification
+inactivity           357
+acute exercise       277
+longterm training    169

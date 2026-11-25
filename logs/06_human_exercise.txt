@@ -1,0 +1,29 @@
+human, exercise: 803 samples (446 exercise, 357 no exercise) from 15 studies
+genes tested: 15451
+
+DESeq2: padj < 0.05 7236 (up 3613, down 3623); and |log2FC| > 1: 40; Bonferroni < 0.05: 2536
+Chi-square, CMH by study: q < 0.05 5318   naive chi-square (study ignored): q < 0.05 5686
+genes significant by the naive chi-square but not by CMH: 2554 (study confounding)
+
+agreement between DESeq2 and CMH:
+CMH significant     False  True 
+DESeq2 significant              
+False                7649    566
+True                 2484   4752
+chi-square on this table = 5889.3, p = 0.00e+00; Fisher odds ratio = 25.9
+
+top genes by DESeq2 p-value:
+               baseMean  log2FoldChange  padj  p_cmh  q_cmh  mh_odds_ratio
+GeneID                                                                    
+MAFF           405.2282          2.1101   0.0    0.0    0.0         4.3869
+ADAMTS4        124.6343          1.9315   0.0    0.0    0.0         5.5597
+LOC102724428   177.5201          1.6928   0.0    0.0    0.0         4.4882
+SIK1           150.2533          1.6764   0.0    0.0    0.0         4.4182
+NR4A3         2689.6020          2.5166   0.0    0.0    0.0         3.0188
+TPM4           829.0425          0.6836   0.0    0.0    0.0         7.1129
+DNAJA1         697.4781          0.4753   0.0    0.0    0.0         4.8876
+TCIM           225.5414          0.6891   0.0    0.0    0.0         4.1306
+EDNRB          126.0091          0.6682   0.0    0.0    0.0         5.4314
+HEY1           161.7007          0.6111   0.0    0.0    0.0         4.6117
+CCL2           149.0224          1.5224   0.0    0.0    0.0         4.1464
+PNP             61.4710          0.9419   0.0    0.0    0.0         4.9123
